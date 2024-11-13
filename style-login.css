@@ -1,0 +1,76 @@
+body {
+    background-image: url('./images/bg4.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Centered card styling */
+.login-card, .signup-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background:linear-gradient(to top, orange,brown);
+}
+
+/* Form title */
+.login-card h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Input fields
+.form-control {
+  width: 100%;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+} */
+
+/* Button styling */
+.btn-primary {
+  background-color: brown;
+  border: none;
+  color:white;
+  border-radius: 10px;
+  padding: 0.75rem;
+  /* display:flex;
+  justify-content: center; */
+  /* font-weight: bold; */
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4e0da3;
+}
+
+/* "Sign up" link styling */
+.login-card a {
+  color: #6a11cb;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-card a:hover {
+  color: #4e0da3;
+}
+
+/* Additional margin and alignment for the "Sign up" link */
+.text-center small {
+  color: #555;
+}
